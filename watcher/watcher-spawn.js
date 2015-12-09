@@ -13,7 +13,7 @@ fs.watch(filename, function() {
     output += chunk.toString();
   });
 
-  ls.stdout.on('close', function() {
+  ls.on('close', function() {
     let parts = output.split(/\s+/);
     console.dir([ parts[0], parts[4], parts[8] ]);
   });
