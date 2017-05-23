@@ -1,0 +1,15 @@
+{
+  "name": "generator_iteator",
+  "version": "1.0.0",
+  "description": "generators and iterators",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.16.1",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ole3021 (oliver.w)",
+  "license": "ISC"
+}
