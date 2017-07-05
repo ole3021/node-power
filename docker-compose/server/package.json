@@ -1,0 +1,15 @@
+{
+  "name": "docker_compose",
+  "version": "1.0.0",
+  "description": "The demo for use docker & docker compose with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ole3021 (Oliver.W)",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
+}
